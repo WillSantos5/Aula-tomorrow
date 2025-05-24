@@ -18,8 +18,10 @@
         <button>Tomorrow</button>
     </a>
 </header>
+
 <br>
 <hr>
+
 <body>
     <div class="aula1">
         <h3>Primeira Aula</h3>
@@ -31,6 +33,7 @@
         </p>
         <p>Começamos também a configurar algumas partes do site utilizando
             algumas tags do HTML:</p>
+
         <ul>
             <li><xmp><p> </p> : Utilizado para caracterizar um parágrafo</xmp></li> 
             <li><xmp><br> : Utilizado para realizar uma quebra de linha</xmp></li>
@@ -39,6 +42,7 @@
             <li><xmp><a> </a> : Utilizado para criar links</xmp></li>
             <li><xmp><h1> </h1> até <h6> </h6> : Utilizado para criar títulos</xmp></li>
         </ul>
+
         <h1>Tomorrow</h1>
         <h2>Tomorrow</h2>
         <h3>Tomorrow</h3>
@@ -46,7 +50,9 @@
         <h5>Tomorrow</h5>
         <h6>Tomorrow</h6>
     </div>
+
     <hr>
+
     <h3>Segunda Aula</h3>
     <p>Na segunda aula vimos sobre sintaxe de imagem, os tipos, entre eles: .png, .svg., .jpg, entre outros.</p>
     <p>Vimos também como adicionar imagens no arquivo HTML: <xmp><img src="url" alt="alternatetext"> ou <img src="nomedapasta/nomedoarquivo.extensão" alt="alternatetext"> </xmp></p>
@@ -54,11 +60,15 @@
         Ele deve descrever a imagem para também ajudar quando o usuário utiliza o mecanismo
         de Acessibilidade.
     </p>
+    
     <p>A imagem abaixo foi adicionada através da pasta no próprio VS Code:</p>
     <img src="Imagens/Computador.jpg" alt="Imagem de um computador salva em uma pasta">
+    
     <p>A imagem abaixo foi carregada de um site:</p>
     <img src="https://images.unsplash.com/flagged/photo-1569144654912-5f146d08b98b?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Imagem de um coputador através do site.">
+    
     <br>
+
     <p>A imagem também pode ser utilizada como um link utilizando:</p>
     <xmp><a href="linkASerAcessado">
         <img src="url" alt="alternatetext"> ou <img src="nomedapasta/nomedoarquivo.extensão" alt="alternatetext"> 
@@ -67,15 +77,21 @@
     <a href="https://tomorrow.ufba.br/">
         <img src="https://tomorrow.ufba.br/sites/tomorrow.ufba.br/files/logo-tomorrow-site.png" alt="Imagem do programa Tomorrow da UFBA">
     </a>
+
     <br><br>
+
     <p>Começamos os estudos de manipulação de imagem.</p>
     <p>Abaixo temos a imagem do computador com tamanhos de altura e largura alterados:</p>
     <img src="Imagens/Computador.jpg" alt="Computador com tamanho alterado" width="500" height="600">
+    
     <p>Pode-se também adicionar uma imagem de fundo no: <xmp><head> <style> p {background-image: url('nomeDaPasta/nomeDoArquivo.extensão');}</style> </head></xmp>
     ou <xmp><p style="background-image: url('nomeDaPasta/nomeDoArquivo.extensão');"></xmp></p>
+    
     <p style="background-image: url('Imagens/background.jpg');">Esta é uma frase com background.</p>
+    
     <p>Vimos também como adicionar o favicon no site:</p>
     <xmp><head> <link rel="shortcut icon" href="favicon.icon" (opcional)type="image/x-icon"> </head></xmp>
+    
     <p>Aprendemos também a alterar a fonte do texto com elementos HTML:</p>   
     <ul>    
         <li><xmp><b> </b> ou <strong> </strong> : Define o texto em negrito</xmp></li>
@@ -107,7 +123,9 @@
         <li><xmp><BDO dir="rtl" ou dir="ltr"> </BDO> : Define o texto da direita para a esquerda ou vice-versa</xmp></li>
         <bdo dir="rtl">Tomorrow</bdo>
     </ul>
+
     <br>
+
     <p>Listas ordenadas e não ordenadas:</p>
     <ul>
         <li><xmp><ol> </ol> : Criação de lista ordenada</xmp></li>
@@ -131,10 +149,13 @@
             <dt>dt: Tomorrow</dt>
             <dd>dd: Tomorrow</dd>
         </dl>
+
         <br>
+
         <li><xmp><table> </table> : Permite organizar dados em linhas e colunas</xmp></li>
         <li><xmp><tr> </tr> : Linhas da tabela</xmp></li>
         <li><xmp><td> </td> : Colunas da tabela</xmp></li>
+
         <table>
             <tr>
                 <th>Tomorrow Coluna 1 Linha 1 ||</th>
@@ -146,5 +167,59 @@
             </tr>
         </table>
     </ul>
+
+
+    <h2>Atividade em sala</h2>
+    <h3>Lista dos meus jogos favoritos</h3>
+    <ul type="disc">
+        <li>PC</li>
+        <ol>
+            <li>Plants vs. Zombies</li>
+            <ul>
+                <li>Garden Warfare</li>
+                <li>Garden Warfare 2</li>
+                <li>Battle for Neighborville</li>
+            </ul>
+        </ol>
+        <li>Playstation</li>
+        <ol>
+            <li>God of War</li>
+            <ul>
+                <li>God of War</li>
+                <li>God of War 2</li>
+                <li>God of War 3</li>
+                <li>God of War (2018)</li>
+                <li>God of War Ragnarök</li>
+            </ul>
+            <li>Uncharted</li>
+            <ul>
+                <li>Uncharted: Drake's Fortune</li>
+                <li>Uncharted 2: Among Thieves</li>
+                <li>Uncharted 3: Drake's Deception</li>
+            </ul>
+        </ol>
+    </ul>
+
+    <h2>Bloco e Divisão</h2>
+    <p>Dois elementos são comumente utilizados:</p>
+    <xmp><p> </p> (define um parágrafo) e <div> </div> (define uma divisão)</xmp> 
+
+    <p>Elementos embutidos:</p>
+    <xmp><span> </span> : Usado para marcar uma parte de um texto</xmp>
+
+    <h2>Imagens dinâmicas, voz e vídeo</h2>
+    <xmp><picture> </picture> : Indicar arquivos de mídia</xmp>
+    <xmp><source media="(min-width: 650px)"> : Indica o tamanho mínimo da mídia ajustada</xmp>
+
+    <xmp><audio> </audio> : Usado para reproduzir arquivo de áudio</xmp>
+
+    <xmp><video> </video> : Usado para mostrar um vídeo em uma página da web</xmp>
+
+    <h2>Introdução a CSS</h2>
+    <p>CSS significa Cascading Style Sheets</p>
+    <p>Descreve como os elementos HTML devem ser exibidos na tela</p>
+    <p>Para aplicar estilos, deve ser necessário adicionar uma tag: <xmp><style> </style></xmp>
+    ou utilizar a tag: <xmp><link rel="stylesheet" href="style.css"></xmp>
+    dentro da área: <xmp><head> </head></xmp></p>
 </body>
 </html>
