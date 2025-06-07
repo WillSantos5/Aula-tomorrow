@@ -7,6 +7,7 @@
     height: 430px;
     display: flex;
     flex-direction: row;
+    justify-items: end;
 }
 
 .paiTexto{
@@ -28,4 +29,36 @@
     font-family: "Mulish", sans-serif;
     font-weight: 400;
     font-size: 18px;
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FF8A00;
+    font-family: "Major Mono Display", monospace;
+    color: #FFFFFF;
+    width: 120px;
+    height: 30px;
+    font-size: 12px;
+    border-radius: 8px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.image-body{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.image-protetor, .image-creme{
+    width: 180px;
+    height: 180px;
+    margin-top: 250px;
+    margin-right: -95px;
+}
+
+.image-mulher{
+    height: 400px;
 }

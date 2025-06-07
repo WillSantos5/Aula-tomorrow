@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+.geral{
+    background-image: url("Imagens/banner2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: -10px;
+    display: flex;
+    flex-direction: row;
+    width: 1440px;
+    height: 430px;
+}
+
+.txtEsquerdo{
+    margin-left: 43px;
+    margin-top: 120px;
+}
+
+.titulo{
+    width: 351px;
+    height: 207px;
+    font-family: Darker Grotesque;
+    font-weight: 800;
+    font-size: 64px;
+    color: #FFFFFF;
+    line-height: 108%;
+    display: flex;
+}
+
+
+.legenda{  
+    margin-top: 91px;
+    color: #FFFFFF;
+    font-family: Mulish;
+    font-weight: 500;
+    size: 22px;
+    margin-left: 700px;
+}
+
+.botao{
+    margin-top: 10px;
+    margin-left: 800px;
+    margin-right: 43px;
+    border: 1px solid #FFFFFF;
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    gap: 10px;
+    color: #FFFFFF;
+    font-family: Mulish;
+    font-weight: 600;
+}
