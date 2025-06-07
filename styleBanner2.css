@@ -28,9 +28,8 @@
     display: flex;
 }
 
-
 .legenda{  
-    margin-top: 91px;
+    margin-top: 100px;
     color: #FFFFFF;
     font-family: Mulish;
     font-weight: 500;
@@ -51,4 +50,12 @@
     color: #FFFFFF;
     font-family: Mulish;
     font-weight: 600;
+    width: 110px;
+}
+
+.logo{
+    width: 139px;
+    height: 33px;
+    margin-top: 347px;
+    margin-left: -180px;
 }
